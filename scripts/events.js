@@ -138,28 +138,28 @@ console.log(countries)
     population: 250000000,
     sports: ["Cricket","Aussie Rules", "Tennis"]
 }*/
-console.log(`There are ${australia.population} people are living in ${australia.name}`);
+// console.log(`There are ${australia.population} people are living in ${australia.name}`);
 
-//document.querySelector("h1").textContent = australia.sports[0]
+// //document.querySelector("h1").textContent = australia.sports[0]
  
 
-function Country(name,capitalcity,language,population,sports) {
-    this.name = name,
-    this.capitalcity = capitalcity,
-    this.language = language,
-    this.population = population,
-    this.sports = sports
-    this.description =() => console.log(`${this.name}'s capital is ${this.capitalCity}`)
-}
+// function Country(name,capitalcity,language,population,sports) {
+//     this.name = name,
+//     this.capitalcity = capitalcity,
+//     this.language = language,
+//     this.population = population,
+//     this.sports = sports
+//     this.description =() => console.log(`${this.name}'s capital is ${this.capitalCity}`)
+// }
 
-let sweden = new Country("sweden","Stockholm","Svenska",100000,["Hockey","Brandboll","Bandy"]);
-let Pakistan = new Country("Pakistan","Islamabad","urdu",24100000,["Cricket","Hockey"]);
+// let sweden = new Country("sweden","Stockholm","Svenska",100000,["Hockey","Brandboll","Bandy"]);
+// let Pakistan = new Country("Pakistan","Islamabad","urdu",24100000,["Cricket","Hockey"]);
 
-console.log(sweden.capitalCity)
-console.log(Pakistan.language)
+// console.log(sweden.capitalCity)
+// console.log(Pakistan.language)
 
 
-let countries1= [sweden,india,australia];
+// let countries1= [sweden,india,australia];
 
-countries.forEach(country  => country.description())
+// countries.forEach(country  => country.description())
 
